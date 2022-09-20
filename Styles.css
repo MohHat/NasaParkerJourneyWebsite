@@ -1,0 +1,27 @@
+
+body {
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+  height: 100vh;
+}
+header{
+    background-image: url('/images/Parker.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+h2{
+  font-size: 80px;
+  text-align: center;
+}
+a{
+  color: white;
+  
+}
