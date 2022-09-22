@@ -23,7 +23,8 @@ body{
 
  }
 nav:hover{
-    background-color: #24788F;
+    background-color: #7b337d
+;
     opacity: 0.8;
   
 }
@@ -52,6 +53,10 @@ nav ul li a:hover{
   border-radius: 10px;
   
 }
+.nav a{
+  border: 1px solid white;
+}
+
 nav .logo {
   padding: 10px 20px;
   text-transform: uppercase;
@@ -63,11 +68,10 @@ nav .logo {
 }
 nav .logo a{
     text-decoration: none;
-    color: #0CAFFF;
+    color: white;
     --c: black;
     --h: 1.2em;
     line-height: var(--h);  
-    overflow: hidden;
     text-shadow: 
       0 calc(-1 * var(--_t, 0em)) var(--c), 
       0 calc(var(--h) - var(--_t, 0em)) transparent;
@@ -81,7 +85,21 @@ nav .logo a:hover{
   --_p: 100%;
   --_s: .3s
 }
-
+nav .logo .logo_img img{
+  width:10px;
+  height: 10px;
+}
+.changeColor{
+  background-color: #fff;
+  box-shadow: 0 2px 
+}
+.changeColor a{
+  color: #000;
+}
+.changeColor a:hover{
+  color: #ff6464;
+  
+}
 .content{
   display: flex;
   justify-content: center;
@@ -97,7 +115,7 @@ nav .logo a:hover{
   cursor: pointer;
   color:#c8dff4;
   transition: all 0.25s;
-  
+   
   
   
 }
@@ -118,7 +136,7 @@ nav .logo a:hover{
   align-items: center;
   flex-direction:column;
   overflow: hidden;
-  min-height: 60vh;
+  min-height: 100vh;
 }
 .video_bg{
   background-attachment: absolute;
@@ -129,7 +147,7 @@ nav .logo a:hover{
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  
+  filter: brightness(75%);
   
 }
 
