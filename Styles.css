@@ -16,15 +16,14 @@ body{
    left:0; 
    font-size: 1.5em;
    width: 100%;
-   height:60px;
+   height:50px;
    background-color: rgba(0, 0, 0, 0);
    color: white;
    transition: 0.6s;
 
  }
-nav:hover{
-    background-color: #7b337d
-;
+.onHover:hover{
+    background-color: #7b337d;
     opacity: 0.8;
   
 }
@@ -33,7 +32,7 @@ nav ul{
   list-style: none;
   float: right;
   display: flex;
-  padding: 10px 20px;
+  padding: 5px 20px;
 font-family: 'Roboto', sans-serif;
 
 
@@ -43,22 +42,19 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   line-height: 40px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-weight: bold;
   transition: 0.3s;
   color: white;
 }
 nav ul li a:hover{
-  background-color: darkred;
+  background-color: #561759;
   border-radius: 10px;
   
 }
-.nav a{
-  border: 1px solid white;
-}
 
 nav .logo {
-  padding: 10px 20px;
+  padding: 5px 20px;
   text-transform: uppercase;
   float: left;
   margin-top: 5px;
@@ -69,7 +65,6 @@ nav .logo {
 nav .logo a{
     text-decoration: none;
     color: white;
-    --c: black;
     --h: 1.2em;
     line-height: var(--h);  
     text-shadow: 
@@ -86,27 +81,35 @@ nav .logo a:hover{
   --_s: .3s
 }
 nav .logo .logo_img img{
-  width:10px;
-  height: 10px;
+  width:15px;
+  height: 15px;
 }
+
 .changeColor{
   background-color: #fff;
-  box-shadow: 0 2px 
+  box-shadow: 0 2px;
+  opacity: 0.9;
+  height: 45px;
 }
 .changeColor a{
   color: #000;
 }
-.changeColor a:hover{
-  color: #ff6464;
-  
+.changeColor .logo_text{
+    color: #000;
+
 }
+
+
 .content{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+
   
 }
+
 .content button{
   padding: 6px 40px;
   border: 2px solid #8ec6fb;
@@ -139,7 +142,7 @@ nav .logo .logo_img img{
   min-height: 100vh;
 }
 .video_bg{
-  background-attachment: absolute;
+  background-attachment: scroll;
   position: fixed;
   z-index: -1;
   top: 50%;
@@ -155,6 +158,7 @@ nav .logo .logo_img img{
   
   font-size: 60px;
   text-align: center;
+  --c: background-color:  #7b337d;
   color: #F0F8FF;
   font-family: lucida sans typewriter;
   font-weight: bold;
@@ -198,7 +202,9 @@ nav .logo .logo_img img{
   background-repeat: no-repeat;
   color: white;
   font-size: 30px;
-  
+  text-align: justify;
+  margin: 60px 80px;
+  font-family: Roboto;
 }
  h2{
   font-size: 20px;
@@ -244,4 +250,85 @@ nav .logo .logo_img img{
   border-radius: 6px;
 }
 
+.model{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:
+}
+.model h1{
+  font-size: 1em;
+}
+iframe{
+  border: 5px solid ;
+  border-radius: 10px;
+}
+#more {display: none;}
+ button{
+  border-radius: 4px;
+  background-color: #5ca1e1;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  width: 110px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 18px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
 
+ .readmore{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+ .readmore:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+ .readmore:hover{
+  padding-right: 24px;
+  padding-left: 14px;
+}
+
+ .readmore:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+
+.content button{
+  padding: 6px 40px;
+  border: 2px solid #8ec6fb;
+  background: none;
+  margin-top: 10px;
+  cursor: pointer;
+  color:#c8dff4;
+  transition: all 0.25s;
+  text-align: center;
+   
+  
+  
+}
+.content button:hover{
+  border-color: #ff852e;
+  color:  #42a4ff;
+  box-shadow: 0 0.5em 0.5em -0.4em  #ff852e;;
+   transform: translateY(-0.25em);
+  border-radius: 10px;
+}
+.intro{
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}

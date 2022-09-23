@@ -11,15 +11,14 @@
 </head>
 <!--  Body   -->
 <body>
- 
 
   <section id="website_head">
     
        <div class="main"> 
          
-          <nav>
+          <nav class="onHover">
             <div class="logo">
-              <a href="#" class="logo_text" >Thunder guys </a><span><span> </span><img src="images/title_fav_small.png"></span>
+              <a href="#" class="logo_text" >Thunder guys </a><span><span> </span><img src="images/title_fav_small.png" alt ='probe'></span>
              </div> 
              <ul class = "nav-menu">
                <li>
@@ -32,19 +31,22 @@
                  <a href="#"> Images </a>
                </li>
              </ul>
+             
+      
           </nav>
-         <header>
+       <header>
         <div class="content">
-          
              <video class="video_bg" autoplay muted loop>
             <source src="SolarProbe.mp4" type="video/mp4">
            </video>
          <h1>Parker Solar Probe</h1>
           <button> Discover </button>
         </div>
+        
          </header>
 
        </div>
+  </div>
        
   </section>
   
@@ -52,18 +54,214 @@
     <h2>Welcome to our website, hope you enjoy it</h2>
     <div class="Container">
       <!-- test the content with decleration -->
-      <div id ='declaration'>
-      <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-    <p>On April 28, 2021, during its eighth flyby of the Sun, <em>Parker Solar Probe</em> did what no other human-made object has ever done: <strong>“touched” the Sun—meaning the spacecraft flew through the Sun’s upper atmosphere</strong>  (the corona) and sampled particles and magnetic fields there. <mark>Your challenge</mark> is to develop a creative way to tell young audiences the inspiring story of Parker’s record-breaking journey from Earth to the Sun and all the perils it overcame on the way</p>
-      </div>
+      <p class="intro">Some info about the journey
+Parker solar probe was launched in 2018 and it was designed to 
+discover more info about the sun, so we can understand stars 
+better, as the sun is a star besides that the Parker solar probe is 
+the nearest human-made object to sun ever. This cool object 
+allows us to predict the changes that will happen to the Earth. 
+The reason it can go very near to the sun is that it's thick and 
+can bear very hot weather. It moves with very high speed that 
+it can go from Philadelphia to Washington in one second.</p>
 
+    <h3>Beating the Heat</h3>    
+      <p>
+The Sun is about 475 times brighter at the probe’s closest approach than it is at Earth’s orbit. That translates into 5.5 MW of sunlight pounding on the spacecraft’s front surface. The probe is designed to reflect much of the incoming light away, but even so, exposed surfaces will get as hot as 1500 °C. 
+        <span id="dots">...</span><span id="more">
+        Normal materials wouldn’t survive at the maximum temperatures. Many metals melt or turn soft; epoxies evaporate into the vacuum; and most insulators stop insulating. “There are very few elements on the periodic table that function at those temperatures,” says Justin Kasper from BWX Technology and the University of Michigan, who leads the SWEAP team.
+
+Some metals, such as tungsten, have high melting temperatures, but they would make a lousy thermal shield. “These metals are heavy and actually conduct heat pretty well,” says Betsy Congdon from Johns Hopkins University in Maryland, who is the lead engineer for the probe’s Thermal Protection System. A heavy shield would require more powerful (more expensive) rockets. A highly conductive shield would allow too much heat to flow back to the instruments.
+
+The probe’s actual shield is made of carbon in a 11.5-cm-thick sandwich structure that only weighs 72 kg. “The top and bottom sheets are made of carbon-carbon, which is a high-temperature version of composites like you find in golf clubs or tennis rackets,” Congdon says. In between these sheets is a carbon foam whose volume is 97% empty space. This porous structure reduces heat conduction.
+
+To reflect away as much light as possible, the front surface of the shield has a thin coating of white ceramic paint that was developed particularly for the probe. Engineers carefully sprayed on this paint to eliminate any bumps that could produce uneven heating on the surface.</p>
+      <button onclick="myFunction()" id="myBtn" class = 'readmore'>Read more</button>
+
+    <h3>Catching the Wind</h3>    
+      <p>
+Most of the probe’s instruments stay tucked behind the shield, but the Solar Probe Cup (SPC) sticks out in the blazing sunlight, measuring the charged particles of the solar wind. “We have this unique problem with the SPC of trying to allow in the particles we want to measure, while also dealing with all the light and heat that comes with them,” Case explains 
+        <span id="dots">...</span><span id="more">
+        To make the SPC robust, Case and Kasper and their colleagues designed it to be bare-bones. The front of the cup is a metal grid that produces an electric field for controlling which charged particles get through to the sensor. In a lab environment, that particle sensor might be a CCD camera or a microchannel plate, but such a sensitive device would be overwhelmed by heat and photons from the Sun. Instead, the SPC team used a no-frills metal plate that generates a picoamp current from the solar wind particles that smack into it
+      The Solar Probe Cup (SPC) sits outside of the shadow of the probe’s main heat shield. It has its own heat shield (shown here) made of niobium alloy. The central aperture holds the metal grid and the metal plate sensor.
+Although the design is simple, finding the right materials for the SPC was not. The team tested samples using a large mirror array that focuses megawatts of sunlight onto a target position. The researchers ran similar tests in a lab using four IMAX film projectors to simulate the Sun</p>
+      <button onclick="myFunction()" id="myBtn" class = 'readmore'>Read more</button>
+      
+    <h3>Going Alone</h3>    
+      <p>
+The intense sunlight does more than roast the probe. It also exerts a strong radiation pressure that pushes on the shield and could flip the spacecraft around in about 30 s—if the spacecraft wasn’t actively correcting its position, Kasper says. That sort of flipping would be disastrous, as it would quickly expose the components in the back of the probe and cause them to fry 
+        <span id="dots">...</span><span id="more">
+       The brightness of the Sun also wreaks havoc with communication. The Sun is bright at many wavelengths, including the microwave channel that NASA uses to exchange messages with the spacecraft. “It can be difficult to ‘hear’ the spacecraft over the signal from the Sun,” Kasper says. Thus there are weeklong periods where the probe is out of total communication with Earth. “We just have to wait and hope the spacecraft takes care of itself,” Kasper says.
+
+To deal with the communication gaps, the spacecraft was programmed to be highly autonomous. Sensors on its side detect how much sunlight is peeking around the shield. If that light becomes too bright, reaction wheels on the probe automatically change their spin rate, causing an opposite rotation in the spacecraft that keeps it pointing at the Sun. When the probe reaches a safe distance from the Sun, it can “relax” by deploying its solar panels (to recharge) and its high-gain antenna (to exchange data with Earth)</p>
+      <button onclick="myFunction()" id="myBtn" class = 'readmore'>Read more</button>  
+      
+    <h3>Dealing with Speed</h3>    
+      <p>
+Just getting to the Sun was difficult. Earth moves around the Sun at 30 km/s (67,000 mph), so a spacecraft needs to lose much of that angular momentum in order to drop down into a “low-Sun orbit.” The probe was launched in August 2018 on a Delta IV Heavy rocket—one of the largest launch vehicles around
+        <span id="dots">...</span><span id="more">
+       Inside that rocket, the probe had its own rocket to slow it down in space. “And even that wasn’t enough to get us into our close approach—we have to ‘cheat’ by using a whole bunch of gravity assists with Venus,” Kasper says. The probe has passed near Venus five times and will do so two more times before the end of the mission. Each flyby transfers orbital energy from the spacecraft to the planet.
+
+But all that slowing down doesn’t mean the probe is dawdling along. The spacecraft has an elliptical orbit that swings it by the Sun at about 200 km/s (400,000 mph)—the fastest that any human-made object has ever gone. That speed poses a danger, as the probe could run into interplanetary dust particles. Such a collision could blow a coin-size hole through a metal sheet, Kasper warns. For that reason, crucial components on the probe were surrounded by dense materials.
+
+Fast-moving particles could also cause damage to the spacecraft. Every so often, the Sun erupts in a solar flare or a coronal mass ejection. “The radiation goes up by orders of magnitude when one of these big events happens,” Case says. One concern is that this extra radiation will affect computer data. To mitigate this danger, engineers installed three separate copies of vital information in the onboard memory. “Every time the probe uses that memory, it looks at all three copies,” Case explains. A kind of vote is taken, where any data corruption is assumed to be the minority. “If there’s a solar flare, we can deal with that penetrating radiation, and it doesn’t cause any significant effects within the spacecraft.</p>
+      <button onclick="myFunction()" id="myBtn" class = 'readmore'>Read more</button>
+         
+      <p>
+There is a big bubble of air surrounding our beautiful Earth 
+which is called the atmosphere and it is consists mainly of five 
+layers like the cake layers from the nearest to the earth to the 
+Farthest which are:
+1- The Troposphere. (1st layer)
+2- The Stratosphere. (2nd layer)
+3- The Mesosphere. (3rd layer)
+4- The Thermosphere. (4th layer)
+5- The Exosphere. (5th layer)
+The "Thermosphere" (4th layer), which is a layer where when 
+you go higher it gets hotter, is located directly above the 
+"Mesosphere"(3rd layer). The sun's powerful rays is what causes 
+it to get hotter. There is a part of the atmosphere "Our air huge 
+bubble" is called the "Ionosphere". And since the "Ionosphere" 
+gives and takes sort of waves called "Radio waves", you can 
+listen to your cousin in the radio from different places of our 
+pretty Earth such as New Zealand!
+And as for the magnetosphere (Earth's magnetic field) which 
+you can see as beautiful colors in Antarctica, it's the area 
+nearby the Earth that is produced by the magnetism power in 
+the heart of the Earth. While many planets near us have 
+magnetospheres(magnetic field), Earth is the only one with the 
+strongest one: Our Earth's magnetosphere has helped life to 
+continue on Earth! It all begins deep below the Earth and is 
+connected and cooperated system that reacts to sun, planets 
+like earth, and stars conditions. This system includes our 
+magnetosphere. The magnetosphere that faces the Sun is much 
+shorter than that not facing the sun, and it's like a long tail of a 
+snake!
+        <span id="dots">...</span><span id="more">
+       The Earth's atmosphere consists mainly of five layers from the 
+lowest to the highest which are:
+1- The Troposphere.
+2- The Stratosphere.
+3- The Mesosphere.
+4- The Thermosphere.
+5- The Exosphere.
+The thermosphere, which is a layer where temperatures rise 
+directly with height, is located above the "mesopause," the last 
+secondary layer of the "mesosphere." The sun's powerful 
+ultraviolet and X-ray radiation is what causes this rise in 
+temperature. Since the powerful solar radiation knocks 
+electrons off molecules and atoms, converting them into "ions" 
+with a positive charge, the region of the atmosphere above 
+about 80 km is also known as the "ionosphere." The 
+thermosphere's temperature fluctuates with the hours of the 
+day and the seasons of the year, as do the quantities of ions 
+and electrons that are present. Since the ionosphere reflects 
+and absorbs radio waves, we can gather shortwave radio 
+broadcasts from different regions of the planet such as New 
+Zealand.
+And as for the magnetosphere (Earth's magnetic field), it's the
+area surrounding the globe that is produced by the intrinsic 
+magnetism of Earth. While several of the planets in our solar 
+system have magnetospheres, Earth is the only rocky planet 
+with the strongest one: Our planet's potential to support life 
+has been greatly influenced by the large comet-shaped bubble 
+that makes up our magnetosphere. It all begins deep below the 
+Earth and is a dynamic, interconnected system that reacts to 
+solar, planetary, and interstellar conditions. This system 
+includes our magnetosphere. A magnetic field strong enough to 
+reach far into space is produced as electrically charged, molten 
+iron churns deep inside Earth's outer core. The magnetosphere 
+extends roughly 6 to 10 times the radius of Earth on the side of 
+Earth that faces the Sun, where the magnetic field is crushed by 
+the continuous barrage of solar wind. The magnetosphere's 
+night side, which is the side that faces away from the Sun, 
+spreads out into a vast magneto-tail that stretches past the 
+Moon's orbit by 60 Earth radii and has a fluctuating length that 
+can reach hundreds of Earth radii.</p>
+      <button onclick="myFunction()" id="myBtn" class = 'readmore'>Read more</button>
+    <h3>More information about the solar probe</h3>
+     <p>
+       Do you think about world or what is out of our planet “earth” yeah that’s right thinking and who can believe that we can explore more about the sun but how and when and who will do that ? that’s our topic . first who are doing that? Nasa team is the best company interest on space category so you can imagine anything from them 
+and how they do that ? that’s a great question and has a complex answer you can know that from one word if you want “probe” they made probe has many abilities and this abilities like has ability to pear the heat of the sun and that’s ability at shield that’s perform its unprecedented investigations, the Parker Solar Probe and its instruments are protected from the Sun by a 4.5-inch-thick (11.43 cm) carbon-composite shield, which can withstand temperatures reaching nearly 2,500 degrees Fahrenheit (1,377 Celsius).
+But when this probe will arrive to the destination what Nasa  want ? this journey to the sun will take about 60 earth’s years to arrive to the sun’s atmosphere so that’s make us go to new question and that what happened and will happen in this journey and when it started?
+First it started at 2015
+They made some reviews
+And  at 2016
+They continued the reviews and made a some tests to project
+At 2017
+Instrument Deliveries
+Observatory System Testing
+Shipment of Observatory to GSFC
+At 2018
+They launched the probe and this the beginning of interesting journey 
+Probe made Venus Flyby for the first time (Venus Flyby 1)
+Probe made Perihelion for the first time (Perihelion 1)
+At 2019
+ Probe made Aphelion for the first time (Aphelion 1)
+Second Orbit Begins
+Perihelion 2 
+Perihelion 3
+Venus Flyby 2
+At 2020
+Perihelion 4
+Perihelion 5
+ Venus Flyby 3
+Perihelion 6
+And at 202…….
+-Oooooh where is the interesting information in this story?
+=If you patient you will show the interesting thing in this story and this thing is you yeah you because you are only can imagine can show that with positive way lets take a little break with some definitions of this sentence.
+First what is the venus flyby?
+Venus flyby is the flying beside the venus  like this photo
+
+
+
+And what about Perihelion  and Aphelion?
+Perihelion is For a planet, comet or other celestial body moving around the Sun in an elliptical orbit, the distance between the object and the Sun changes throughout the orbit.
+The position of closest approach, i.e. the shortest distance between the Sun and the planet, is known as the perihelion (from the Greek peri = near and helios = Sun). At this point in the orbit, the planet is moving at its maximum speed (Kepler’s Second Law). The perihelion refers specifically to orbits aroundd the Sun, and is equivalent to the periapsis of a general orbit.
+To completely specify the position of a planet, the argument of perihelion is required as one of the orbital elements.
+In a strong gravitational field, the location of perihelion may advance on successive orbits. Within the Solar System, this is most easily seen in the orbit of Mercury, providing an important test of General Relativity.
+
+And aphelion is a planet, comet or other celestial body moving around the Sun, does so in an elliptical orbit with the Sun located at one of the foci (Kepler’s First Law). This means that the distance between the planet and the Sun changes throughout the orbit. The greatest distance between the Sun and the planet, is known as the aphelion (from the Greek apo = away from and helios = Sun). At this point in the orbit, the planet is moving at its slowest speed (Kepler’s Second Law). The aphelion refers specifically to orbits around the Sun, and is equivalent to the apoapsis of a general orbit.
+So lets continue our story of probe 
+At 2021 
+Perihelion 7
+Venus Flyby 4
+Perihelion 8
+Perihelion 9
+Venus Flyby 5
+Perihelion 10
+At 2022
+Perihelion 11
+Perihelion 12
+Perihelion 13
+Perihelion 14 (incoming)
+And in the future what is the expected?
+At 2023
+Perihelion 15
+Perihelion 16
+Venus Flyby 6
+Perihelion 17
+Perihelion 18
+At 2024
+Perihelion 19
+Perihelion 20
+Perihelion 21
+Venus Flyby 7 “Final Venus Flyby”
+Perihelion 22 “First Close Approach”
+At 2025
+Perihelion 23
+Perihelion 24
+
+     </p>
+      <!--
+      <div class="model">
+        <h1> Here is a 3D model of the Solar probe </h1>
+      <iframe src='https://solarsystem.nasa.gov/gltf_embed/2356' width='90%' height='450px' frameborder='0' />
     </div>
+      -->
+  </div>
+        
   </section>
+
 
   
 <script type ='text/javascript'>
@@ -73,7 +271,6 @@
     video.style.opacity = value;
   })
 </script>  
-
   <footer>
     <div><a href="#top">return to the top of the page</a></div>
   </footer>
