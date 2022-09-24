@@ -282,7 +282,7 @@ iframe{
 #more4 {display: none;}
  button{
   border-radius: 4px;
-  background-color: #5ca1e1;
+  background-color: #7b337d;
   border: none;
   color: #fff;
   text-align: center;
@@ -293,6 +293,9 @@ iframe{
   cursor: pointer;
   margin: 18px;
   box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+#discoverbutton button{
+  text-align: center;
 }
 
  .readmore{
@@ -347,3 +350,35 @@ iframe{
   text-align: center;
   margin-bottom: 20px;
 }
+.refrence a{
+   text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 5px 15px;
+  font-weight: italic;
+  transition: 0.3s;
+  color: white;
+}
+.refrence a:hover{
+  color: red;
+}
+.contentvideos{
+  text-align: center;
+  border: 40px;
+  border-color: white;
+}
+.websitesForInformation a{
+   text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  padding: 5px 15px;
+  font-weight: italic;
+  transition: 0.3s;
+  color: white;
+  text-decoration: underline;
+}
+.websitesForInformation a:hover{
+  color: red;
+}
+
+
